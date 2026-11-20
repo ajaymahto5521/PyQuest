@@ -448,6 +448,14 @@ function viewHome() {
       <div><span class="how-n">2</span><h3>Write the code</h3><p>Solve a small task in a real Python editor. Press Ctrl+Enter to run it.</p></div>
       <div><span class="how-n">3</span><h3>Get instant feedback</h3><p>Press Check to test your answer. You get hints when something's off, and XP when it's right.</p></div>
     </section>
+    <a class="next-course" href="ai-course/">
+      <div>
+        <p class="eyebrow">After PyQuest</p>
+        <h3>AI Engineer Foundations</h3>
+        <p>A free 56-day course, one hour a day. It covers the command line, Git, Docker, SQL, APIs, NumPy, pandas and the math behind machine learning.</p>
+      </div>
+      <span class="btn btn-ghost">Open the course ${ICON.arrow}</span>
+    </a>
     <footer class="foot">
       <p>Your code runs on your own device using <a href="https://pyodide.org" target="_blank" rel="noopener">Pyodide</a>, which is real CPython compiled for the browser. Your progress is saved in this browser only.</p>
       <button class="link-btn" id="reset-progress">Reset progress</button>

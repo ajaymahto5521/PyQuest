@@ -169,6 +169,12 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.15; text-wrap: balance;
 .how h3 { margin: 10px 0 4px; font-size: 1.05rem; }
 .how p { margin: 0; color: var(--muted); font-size: .93rem; }
 .how-n { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 9px; background: var(--accent-soft); color: var(--accent); font-family: var(--display); font-weight: 700; }
+.next-course { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 28px; margin-bottom: 32px; padding: 22px 24px; border-radius: var(--radius); background: var(--accent-soft); color: var(--ink); text-decoration: none; border: 1px solid transparent; transition: border-color .15s ease; }
+.next-course:hover { border-color: var(--accent); }
+.next-course > div { flex: 1 1 360px; min-width: 0; }
+.next-course .eyebrow { margin-bottom: 6px; }
+.next-course h3 { margin: 0 0 6px; font-size: 1.3rem; }
+.next-course p:last-child { margin: 0; color: var(--muted); font-size: .93rem; max-width: 70ch; }
 .foot { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; justify-content: space-between; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted); font-size: .86rem; }
 .foot p { margin: 0; max-width: 70ch; }
 
